@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poultry Farm Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+            <h1>Poultry Farm Control Panel</h1>
+        </div>
+
+        <div class="content-block">
+            <div class="panel">
+                <h3>Manage Birds</h3>
+                <div class="input-row">
+                    <input type="text" id="bName" placeholder="Name">
+                    <input type="text" id="bSpecies" placeholder="Species">
+
+                    <button id="btnSaveBird" class="btn-add" onclick="onSaveBird()">Add New Bird</button>
+                    <button id="btnCancelBird" class="btn-cancel hidden" onclick="resetBirdForm()">Cancel</button>
+                </div>
+                <div class="table-container">
+                    <table id="bird-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 50px;">ID</th>
+                                <th>Name</th>
+                                <th>Species</th>
+                                <th style="width: 140px;">Option</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h3>Manage Eggs</h3>
+                <div class="input-row">
+                    <select id="eSize">
+                        <option value="S">Small (S)</option>
+                        <option value="M">Medium (M)</option>
+                        <option value="L">Large (L)</option>
+                        <option value="XL">Extra Large (XL)</option>
+                    </select>
+                    <input type="number" id="eBirdId" placeholder="Parent Bird ID">
+
+                    <button id="btnSaveEgg" class="btn-add" onclick="onSaveEgg()">Add New Egg</button>
+                    <button id="btnCancelEgg" class="btn-cancel hidden" onclick="resetEggForm()">Cancel</button>
+                </div>
+                <div class="table-container">
+                    <table id="egg-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 50px;">ID</th>
+                                <th>Size</th>
+                                <th>Bird ID</th>
+                                <th style="width: 140px;">Option</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

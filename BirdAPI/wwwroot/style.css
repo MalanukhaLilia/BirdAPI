@@ -1,0 +1,154 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.main-wrapper {
+    width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    background-color: #4a76a8;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+    .header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+.content-block {
+    padding: 20px;
+}
+
+.panel {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+}
+
+    .panel:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+h3 {
+    margin-top: 0;
+    color: #333;
+    border-left: 5px solid #4a76a8;
+    padding-left: 10px;
+}
+
+.input-row {
+    background-color: #f9f9f9;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex-grow: 1;
+}
+
+.btn-add {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+    .btn-add:hover {
+        background-color: #4cae4c;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #eee;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.btn-del {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+    .btn-del:hover {
+        background-color: #c9302c;
+    }
+.hidden {
+    display: none !important;
+}
+
+.btn-update {
+    background-color: #f0ad4e;
+}
+
+    .btn-update:hover {
+        background-color: #ec971f;
+    }
+
+.btn-cancel {
+    background-color: #777;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+    .btn-cancel:hover {
+        background-color: #555;
+    }
+
+.btn-edit {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+    .btn-edit:hover {
+        background-color: #31b0d5;
+    }

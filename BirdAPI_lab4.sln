@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdAPI_lab4", "BirdAPI\BirdAPI_lab4.csproj", "{B60F2AA6-8C9E-43E7-876E-4BEA0BBE0E88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B60F2AA6-8C9E-43E7-876E-4BEA0BBE0E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60F2AA6-8C9E-43E7-876E-4BEA0BBE0E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60F2AA6-8C9E-43E7-876E-4BEA0BBE0E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60F2AA6-8C9E-43E7-876E-4BEA0BBE0E88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0BF3879-2036-45E0-A79F-AE99F1B38CF0}
+	EndGlobalSection
+EndGlobal
